@@ -1,0 +1,22 @@
+.menu{
+    font-family: Arial,sans-serif;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+    padding: 15px;
+    color: #fff;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li a:visited{
+    color: #fff;
+}
+
+.menu li a:hover{
+    color: #175bb7;
+}

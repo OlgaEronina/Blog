@@ -1,0 +1,24 @@
+.header{
+    background: #d26d33;
+    width: 100%;
+    height: 100px;
+}
+
+.header-maxi{
+    background: #d2a269;
+    width: 100%;
+    height: 150px;
+}
+
+.header-mini{
+    background: #d26d33;
+    width: 100%;
+    height: 50px;
+}.menu{
+    font-family: Arial,sans-serif;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+}

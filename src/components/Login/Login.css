@@ -1,0 +1,28 @@
+.login{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: Arial,sans-serif;
+}
+
+#login{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#password{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.send{
+    border: none;
+    background: #ffce60;
+    width: 159px;
+    height: 33px;
+    cursor: pointer;
+}
+
+input{
+    height: 25px;
+}
