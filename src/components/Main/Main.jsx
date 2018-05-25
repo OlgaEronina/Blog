@@ -6,31 +6,25 @@ export default class Main extends Component {
 
     render() {
         return (
-            <div className= 'main'>
-                <h2>Note </h2>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, aut eum eveniet
-                    exercitationem necessitatibus non porro, quis reiciendis reprehenderit rerum sapiente sit sunt.
-                    Accusantium animi eos illo rem temporibus.
+            <div className="main">
+                <div className="article">
+                    <h2>Note 1</h2>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet autem culpa delectus
+                    doloribus dolorum ea esse facere illum ipsa iste modi nam neque non, numquam odio, optio possimus
+                    praesentium quis sed suscipit totam ullam vel veniam voluptates! Ad alias animi consequuntur ea hic
+                    incidunt nisi placeat quidem repellendus voluptatibus!
                 </div>
-                <br/>
-                <div>Alias architecto blanditiis consequuntur dolorem neque odit placeat quaerat ullam? Aperiam, dolorum
-                    earum eos esse itaque, laboriosam molestiae molestias nemo, neque nesciunt nihil officiis
-                    perferendis quae quidem sequi tempore ullam.
-                </div>
-                <br/>
-                <div>Alias magni maxime neque? Atque id laudantium libero maxime nobis perspiciatis quod reiciendis.
-                    Accusantium consectetur cum dolor enim error eveniet facere labore maiores, modi praesentium quidem,
-                    quo? Error, qui, ullam.
-                </div>
-                <br/>
-                <div>A atque eius eligendi mollitia saepe sint ullam. Ex, saepe, unde. Adipisci doloremque dolores eaque
-                    esse facilis molestias odio praesentium sequi, unde voluptatibus. Cumque excepturi laudantium
-                    mollitia provident qui saepe?
-                </div>
-                <br/>
-                <div>Consectetur deserunt ducimus, error ipsum iusto magnam, mollitia nobis sint tempora vel velit
-                    voluptatibus. Animi cum ipsum nemo praesentium vitae. Amet autem dolorum earum in iusto magni
-                    numquam quos unde!
+                <div className="article">
+                    <h2>Note 2</h2>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet autem culpa delectus
+                    doloribus dolorum ea esse facere illum ipsa iste modi nam neque non, numquam odio, optio possimus
+                    praesentium quis sed suscipit totam ullam vel veniam voluptates! Ad alias animi consequuntur ea hic
+                    incidunt nisi placeat quidem repellendus voluptatibus!
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet autem culpa delectus
+                    doloribus dolorum ea esse facere illum ipsa iste modi nam neque non, numquam odio, optio possimus
+                    praesentium quis sed suscipit totam ullam vel veniam voluptates! Ad alias animi consequuntur ea hic
+                    incidunt nisi placeat quidem repellendus voluptatibus!
                 </div>
             </div>
         )
