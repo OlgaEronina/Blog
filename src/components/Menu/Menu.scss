@@ -1,0 +1,25 @@
+.menu {
+  font-family: Arial, sans-serif;
+  position: relative;
+  left: 8em;
+  top: -1em;
+  li {
+    float: left;
+    list-style: none;
+    padding: 15px;
+    color: #fff;
+  }
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+.menu li a:visited {
+  color: #fff;
+}
+
+.menu li a:hover {
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 6px;
+}

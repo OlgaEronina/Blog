@@ -1,31 +1,45 @@
-import React,{Component} from 'react';
+import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 import Header from './components/Header';
 import Main from './components/Main';
 import Login from './components/Login';
-import SideMenu from './components/SideMenu'
+import SideMenu from './components/SideMenu';
+import Footer from './components/Footer';
+import {sideMenuItems} from './components/SideMenu/SideMenuItems.js';
+import CommentForm from './components/CommentForm';
+import Comment from './components/Comment'
 
-const sideMenuItems = [
-    {link:'#',title:'Main'},
-    {link:'#',title:'News'},
-    {link:'#',title:'Contacts'},
-    {link:'#',title:'About'},
-    {link:'#',title:'Articles'},
-    {link:'#',title:'Random page'},
-    {link:'#',title:'Another interesting thing'}
-];
+class App extends Component {
+    constructor(props) {
+        super(props);
 
-class App extends Component{
-    render(){
-        return(
+        this.state = {
+            comments: []
+        }
+    }
+
+    handleSend = (comment) => {
+        const {comments} = this.state;
+        this.setState({
+            comments:comments.concat([comment])
+            }
+        )
+    };
+
+    render() {
+        const {comments} = this.state;
+
+        return (
             <div>
                 <Header/>
-                <SideMenu items = {sideMenuItems}/>
-                <Login/>
+                <SideMenu items={sideMenuItems}/>
                 <Main/>
+                <Comment items={comments}/>
+                <CommentForm onSend={this.handleSend}/>
+                <Footer/>
             </div>
         )
     }
 }
 
-ReactDom.render(<App/>,document.getElementById('root'));
+ReactDom.render(<App/>, document.getElementById('root'));

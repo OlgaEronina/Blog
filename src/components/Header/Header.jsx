@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './Header.css';
-import classNames from 'classnames';
+import './Header.scss';
 import Menu from '../Menu';
+import Login from '../Login'
 
 const menuItems = [
     {link:'#',title:'Main'},
@@ -15,6 +15,7 @@ export default class Header extends Component{
     render(){
         return(
             <div className='header'>
+                <Login/>
                 <Menu items = {menuItems} />
             </div>
         )
