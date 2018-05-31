@@ -1,45 +1,27 @@
-.login{
-    float: left;
-    margin-left: 20px;
-    margin-top: 50px;
-    font-family: Arial,sans-serif;
-    display: none;
+.login {
+  margin-left: 2em;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-flow: column;
 }
 
-#login{
-    margin-top: 5px;
-    margin-bottom: 20px;
-    display: none;
+#login {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 25px;
 }
 
-#password{
-    margin-top: 5px;
-    margin-bottom: 20px;
-    display: none;
+#password {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 25px;
 }
 
-.send{
-    border: none;
-    background: #ffce60;
-    width: 159px;
-    height: 33px;
-    cursor: pointer;
-    display: none;
-}
-
-input{
-    height: 25px;
-    display: none;
-}
-
-.signIn{
-    color: #ffffff;
-    font-family: Verdana,sans-serif;
-    position: relative;
-    top: 1em;
-    left: 3em;
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    padding: 6px;
+.send {
+  border: none;
+  background: #ffce60;
+  width: 159px;
+  height: 33px;
+  cursor: pointer;
 }

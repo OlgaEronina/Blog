@@ -1,12 +1,20 @@
 #commentForm{
   width: 500px;
   border-radius: 5px;
-  position: relative;
-  top: 50em;
-  left: 18em;
+  display: flex;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-left: 16em;
 }
 
 #name{
-  display: block;
   margin-bottom: 15px;
+}
+
+.postMsg{
+  width: 55px;
+  margin-top: 15px;
+  background: #e9b563;
+  border: none;
+  padding: 5px;
 }

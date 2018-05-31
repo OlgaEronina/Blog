@@ -1,9 +1,11 @@
 .article{
   padding: 15px;
   font-family: Verdana,sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   background: #f2f2f2;
   margin-top: 30px;
+  width: 800px;
+  text-indent: 1.5em;
 }
 
 .unfold{
@@ -14,4 +16,11 @@
 
 .articleHeading{
   padding:10px 0 15px 0;
+}
+
+.articleContainer{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  margin-left: 16em;
 }

@@ -7,17 +7,18 @@ export default class Comment extends PureComponent {
 
     this.state = {
       name: '',
-      text: ''
+      text: '',
+      date: new Date()
     }
   }
 
   render () {
     const {items} = this.props
-    const {name, text} = this.state
+    const {name,text,date} = this.state
 
     return (
-      <div className='comments'>
-        {items.map((item) => <p className='com'>{item.name}: {item.text}</p>)}
+      <div className="comments">
+        {items.map((item) => <p className="com">{item.name}: {item.text} <br /> {items.date}</p>)}
       </div>
     )
 

@@ -1,23 +1,23 @@
-import React, {Component} from 'react';
-import './Header.scss';
-import Menu from '../Menu';
+import React, { Component } from 'react'
+import './Header.scss'
+import Menu from '../Menu'
 import Login from '../Login'
 
 const menuItems = [
-    {link:'#',title:'Main'},
-    {link:'#',title:'News'},
-    {link:'#',title:'Contacts'},
-    {link:'#',title:'About'}
-];
+  {link: '#', title: 'Main Page'},
+  {link: '#', title: 'Blog'},
+  {link: '#', title: 'Users'},
+  {link: '#', title: 'Comments'}
+]
 
 export default class Header extends Component{
 
-    render(){
-        return(
-            <div className='header'>
-                <Login/>
-                <Menu items = {menuItems} />
-            </div>
-        )
-    }
+  render () {
+    return (
+      <div className='header'>
+        <Menu items={menuItems} />
+        <Login />
+      </div>
+    )
+  }
 }

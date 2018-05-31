@@ -1,9 +1,10 @@
 .comments {
-  background: aquamarine;
-  width: 883px;
+  background: #7fffd461;
+  width: 830px;
   height: 100px;
-  position: relative;
-  top: 50em;
-  left: 15em;
-  margin-bottom: 15px;
+  display: flex;
+  margin-left: 16em;
+  margin-top: 30px;
+  flex-flow: column;
+  padding: 10px;
 }

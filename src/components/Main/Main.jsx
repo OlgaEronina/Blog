@@ -9,7 +9,6 @@ export default class Main extends PureComponent {
         return (
             <div className='main'>
                 <Article />
-                <div className='clearfix'></div>
             </div>
         )
     }

@@ -1,0 +1,14 @@
+.mainContent {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: row;
+  margin-top: 50px;
+  justify-content: space-around;
+  .mainContentText{
+    width: 800px;
+    margin-left: 170px;
+  }
+}
