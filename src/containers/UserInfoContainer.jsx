@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import UserList from '../components/Users/UserList.jsx'
+import UserList from 'components/Users/UserList.jsx'
 
 export default class UserInfoContainer extends PureComponent {
   constructor (props) {
