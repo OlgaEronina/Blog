@@ -3,7 +3,7 @@ import UserList from 'components/Users/UserList.jsx'
 
 export default class UserInfoContainer extends PureComponent {
   constructor (props) {
-    super(props)
+    super(props);
     this.state = {
       users: []
     }

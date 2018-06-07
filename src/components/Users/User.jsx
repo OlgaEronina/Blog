@@ -7,14 +7,14 @@ export default class User extends PureComponent {
     user: PropTypes.arrayOf(
       PropTypes.shape({
           name: PropTypes.string,
-          phone: PropTypes.number
+          phone: PropTypes.string
         })
     ).isRequired
   };
 
 
   render () {
-    const {user} = this.props
+    const {user} = this.props;
     return (
       <div className="userList">
         {user.name} ({user.phone})

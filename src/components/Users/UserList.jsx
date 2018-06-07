@@ -8,17 +8,17 @@ export default class UserList extends PureComponent {
       PropTypes.shape(
         {
           name: PropTypes.string,
-          phone: PropTypes.number
+          phone: PropTypes.string.isRequired
         }
       )
     )
-  }
+  };
   static defaultProps = {
     users: []
-  }
+  };
 
   render () {
-    const {users} = this.props
+    const {users} = this.props;
     return (
       <div>
         {users.map((user,idx) => <User key={idx} user = {user} />)}
