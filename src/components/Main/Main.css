@@ -1,0 +1,13 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.mainPage{
+    display: flex;
+    margin: 50px 70px 10px 70px;
+    justify-content: space-around;
+}
+
+h2{
+    text-align: center;
+}

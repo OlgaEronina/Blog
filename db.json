@@ -1,44 +1,84 @@
 {
-  "users": [
+  "pokemons": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "phone": "123456"
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/1\/",
+      "name": "bulbasaur"
     },
     {
-      "id": 2,
-      "name": "Harry Potter",
-      "phone": "654321"
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/2\/",
+      "name": "ivysaur"
     },
     {
-      "id": 3,
-      "name": "Captain Jack the Sparrow",
-      "phone": "777-777"
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/3\/",
+      "name": "venusaur"
     },
     {
-      "id": 4,
-      "name": "Doctor Who",
-      "phone": "555-555"
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/4\/",
+      "name": "charmander"
     },
     {
-      "id": 5,
-      "name": "Pablo Picasso",
-      "phone": "987654"
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/5\/",
+      "name": "charmeleon"
     },
     {
-      "id": 6,
-      "name": "Robin Hood",
-      "phone": "54657"
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/6\/",
+      "name": "charizard"
     },
     {
-      "id": 7,
-      "name": "The Pope",
-      "phone": "121212"
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/7\/",
+      "name": "squirtle"
     },
     {
-      "id": 8,
-      "name": "Sauli Niinisto",
-      "phone": "0358012"
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/8\/",
+      "name": "wartortle"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/9\/",
+      "name": "blastoise"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/10\/",
+      "name": "caterpie"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/11\/",
+      "name": "metapod"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/12\/",
+      "name": "butterfree"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/13\/",
+      "name": "weedle"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/14\/",
+      "name": "kakuna"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/15\/",
+      "name": "beedrill"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/16\/",
+      "name": "pidgey"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/17\/",
+      "name": "pidgeotto"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/18\/",
+      "name": "pidgeot"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/19\/",
+      "name": "rattata"
+    },
+    {
+      "url": "https:\/\/pokeapi.co\/api\/v2\/pokemon\/20\/",
+      "name": "raticate"
     }
   ]
 }

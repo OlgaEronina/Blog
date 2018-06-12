@@ -35,7 +35,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-dist/
 
 # TypeScript v1 declaration files
 typings/
@@ -60,33 +59,3 @@ typings/
 
 # next.js build output
 .next
-
-# User-specific stuff:
-.idea/
-
-# Sensitive or high-churn files:
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
-
-# Gradle:
-.idea/gradle.xml
-.idea/libraries
-
-# Mongo Explorer plugin:
-.idea/mongoSettings.xml
-
-## File-based project format:
-*.iws
-
-## Plugin-specific files:
-
-# IntelliJ
-/out/
-.idea/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/

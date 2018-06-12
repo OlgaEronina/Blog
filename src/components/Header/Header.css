@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    text-transform: uppercase;
+    display: flex;
+}
+.header ul{
+display: flex;
+}
+
+.header ul li{
+    list-style: none;
+    padding-left: 15px;
+    cursor: pointer;
+}
